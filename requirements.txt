@@ -1,0 +1,10 @@
+torch
+numpy
+matplotlib
+scikit-learn
+lightning
+scikit-image
+omegaconf
+opencv-python
+wandb
+twine
