@@ -21,14 +21,15 @@ Issues = "https://github.com/alexanderbarnhill/fauasg/issues"
 
 
 [build-system]
-requires = ["setuptools>=61.0",
-'torch',
-                      'numpy',
-                      'matplotlib',
-                      'scikit-learn',
-                      'lightning',
-                      'scikit-image',
-                      'omegaconf',
-                      'opencv-python==4.9.0.80',
-                      'wandb']
+requires = [
+    "setuptools>=61.0",
+    'torch>=1.9.0',
+    'numpy',
+    'matplotlib',
+    'scikit-learn',
+    'lightning',
+    'scikit-image',
+    'omegaconf',
+    'opencv-python==4.9.0.80',
+    'wandb']
 build-backend = "setuptools.build_meta"
