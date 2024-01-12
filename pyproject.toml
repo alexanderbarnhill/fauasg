@@ -23,7 +23,7 @@ Issues = "https://github.com/alexanderbarnhill/fauasg/issues"
 [build-system]
 requires = [
     "setuptools>=61.0",
-    'torch>=1.9.0',
+    'pytorch>=1.11.0',
     'numpy',
     'matplotlib',
     'scikit-learn',

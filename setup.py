@@ -9,7 +9,7 @@ setup(
     author_email='alexander.barnhill@fau.de',
     license='MIT',
     packages=find_packages(),
-    install_requires=['torch>=1.9.0',
+    install_requires=['pytorch>=1.11.0',
                       'numpy',
                       'matplotlib',
                       'scikit-learn',
